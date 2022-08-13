@@ -1,0 +1,84 @@
+.Rocket-info {
+    padding: 7% 3% 0 3%;
+}
+.btn-back {
+    font-size: 0.9em;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-back i {
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-right: 3px;
+}
+.info-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-img section {
+    width: 90%;
+    height: 80vh;
+}
+.heading {
+    font-size: 1em;
+    color: white;
+    margin-right: 10px;
+}
+.value {
+    font-size: 1em;
+    color: lightgray;
+    font-size: 0.9em;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}
+.details-content {
+    padding: 10px 0 10px 0;
+}
+.details-content a {
+    float: right;
+}
+.info-details {
+    padding: 5% 0 0 0;
+    width: 90%;
+}
+.gap {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.details-content img {
+    margin: 10px;
+    object-fit: cover;
+    width: 48%;
+    height: 50vh;
+}
+@media only screen and (max-width: 768px) {
+    .details-content img {
+        margin: 10px;
+        object-fit: cover;
+        width: 97%;
+        height: 50vh;
+    }
+    .Rocket-info {
+        padding: 12% 3% 0 3% !important;
+    }
+}
+@media only screen and (max-width: 999px) {
+    .details-content img {
+        margin: 10px;
+        object-fit: cover;
+        width: 97%;
+        height: 50vh;
+    }
+    .Rocket-info {
+        padding: 10% 3% 0 3% !important;
+    }
+}
